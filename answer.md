@@ -1,12 +1,12 @@
 # 第1次作業題目-隨堂-HW1
 >
->學號：1234567 (換成自己的)
+>學號：113111144
 ><br />
->姓名：王小明 (換成自己的)
+>姓名：徐詠姍
 ><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間，換成自己的)
+>作業撰寫時間：180min
 ><br />
->最後撰寫文件日期：2023/09/22 (換成自己的)
+>最後撰寫文件日期：2023/10/05
 >
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
@@ -15,60 +15,38 @@
 
 ## 說明內容
 
-開始寫說明，該說明需說明想法，
-並於之後再對上述想法的每一部分將程式進一步進行展現，
-若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
-
-```csharp
-public void mt_getResult(){
-    ...
-}
-```
-
-若要於內文中標示部分網頁檔，則使用以下標籤` ```html 程式碼 ``` `，
-下段程式碼則為使用後結果：
-
-```html
-<%@ Page Language="C#" AutoEventWireup="true" ...>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
-```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
-
-請在撰寫"說明程式與內容"該塊內容，請把原該塊內上述敘述刪除，該塊上述內容只是用來指引該怎麼撰寫內容。
-
 1. 
-
 Ans:
-
-
+<br />
+![完成截圖](image.png)
+![說明截圖](image-3.png)
+點擊右上角的fork
+<br />
 2. 
-
 Ans:
-
+<br />
 3. 
-
 Ans:
-
+<br />
+![操作步驟](image-1.png)
+<br />
+git checkout -b feature-113111144 建立並直接切換到新分支
+<br />
+touch 快速建立一個全新的空白檔案
+<br />
+git commit -m "說明" 存檔跟說明
+<br />
+git checkout main 切回main分支
+<br />
+git merge feature-113111144 合併分支
+<br />
+git push origin main 把本地端的 main 分支成果上傳到 GitHub 遠端倉庫
 
 4. 
-
 Ans:
+<br />
+![結果截圖](image-2.png)
+<br />
 
 ## 其他
+好難看 布幕反光 切螢幕好啊 
